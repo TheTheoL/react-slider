@@ -26,7 +26,7 @@ export const Slider = () => {
                 >
                     {data.map(data => {
                         return (
-                            <motion.div className='item' key={data}>
+                            <motion.div className='item' key={data.id}>
                                 <img src={data.image} alt="photo" />
                                 <h3>{data.title}</h3>
                             </motion.div>
